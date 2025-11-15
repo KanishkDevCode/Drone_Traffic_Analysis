@@ -26,21 +26,6 @@ The pipeline uses **YOLOv8 + DeepSORT** along with **automatic lane extraction**
 
 ---
 
-## 📂 Project Structure
-```
-
-project/
-├── auto_lane_detection.py     # Automatic lane extraction
-├── traffic_analysis.py        # YOLO + DeepSORT + flow analysis
-├── lanes.json                 # Auto-created lane polygons
-├── results/
-│   ├── debug_output.mp4       # Visualization output
-│   ├── traffic_counts.xlsx    # Lane-wise direction counts
-│   └── tracks_output.csv      # Per-vehicle tracking data
-└── README.md
-
-````
-
 ---
 
 ## 🚀 How It Works
